@@ -2,17 +2,11 @@
 
 package Config
 
-import
 import (
 	"fmt"
-	"github.com/jinzhu/gorm"
-	"os/user"
-)
-{
-	"fmt"
 
-	"github.com/jinzu/gorm"
-}
+	"github.com/jinzhu/gorm"
+)
 
 var DB *gorm.DB
 
@@ -31,7 +25,7 @@ func BuildDBConfig() *DBConfig {
 		Port: 3306,
 		User: "root",
 		Password: "",
-		DBName: "resourcesdb"
+		DBName: "resourcesdb",
 	}
 	return &dbConfig
 }
