@@ -1,0 +1,1 @@
+Tutorial: https://apige.medium.com/go-gin-rest-api-tutorial-create-secure-rest-api-using-go-gin-framework-gorm-mysql-6010e2f6cba3
